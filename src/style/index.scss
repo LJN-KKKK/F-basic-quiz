@@ -1,3 +1,80 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-avatar {
+  height: $image-size;
+  width: $image-size;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -70px;
+}
+
+.basic-info {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  width: 100%;
+}
+
+.resume-title {
+  color: $primary-color;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.education-year {
+  width: 10%;
+}
+
+.education-detail {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: $gray-light;
+  width: 85%;
+}
+
+.education-title {
+  font-weight: bold;
+}
