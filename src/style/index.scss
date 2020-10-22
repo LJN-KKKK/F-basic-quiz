@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
-
+// TODO GTB-工程实践 - 因为整个页面没有分模块，导致了所有的css都写在了一个文件里面
 html {
   width: 100%;
   height: 100%;
