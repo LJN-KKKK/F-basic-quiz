@@ -21,7 +21,7 @@ __Details:__
 - \- 没有使用语义化标签，列表元素应该使用ul>li
 - \- fetch的使用错误：fetch不需要额外引入一个依赖
 - \- 没有使用import，使用了require
-- \- 对promise和fetch的使用错误，需要看一下async/await的用法以及fetch API
+- \- 对fetch的使用错误，需要看一下fetch API以及Promise
 
 ### 工程实践：
 
